@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  margin-top: 5rem;
+  text-align: center;
+  color: #333;
+}
+
+.meme {
+  position: relative;
+  width: 80%;
+  max-width: 32rem;
+  max-height: 32rem;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.meme > img {
+  height: 50%;
+  max-width: 32rem;
+  max-height: 32rem;
+  margin: auto;
+  box-shadow: 2px 2px 4px #888;
+  border-radius: 0.25rem;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px #000;
+  text-align: center;
+}
+
+.meme-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+input {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 1px solid #999;
+  border-radius: 0.25rem;
+  padding: 0.25em;
+}
+
+.meme > .bottom {
+  bottom: 0.5em;
+}
+
+.meme > .top {
+  top: 0.5em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  align-self: flex-end;
+  padding: 0.5em 1.5em;
+  background: #0a8d05;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.bnt:focus,
+.btn:hover {
+  background: #086b03;
+}
